@@ -23,3 +23,5 @@ a652a4f19cfddf052005ae02b024bd91  openwrt-mtall-xz_05
 -rw-rw-r-- 1  83886080 Apr 20 16:37 openwrt-mtall-xz_09
 -rw-rw-r-- 1  14014800 Apr 20 16:37 openwrt-mtall-xz_10
 
+cat small_files* > large_file
+
