@@ -25,3 +25,6 @@ a652a4f19cfddf052005ae02b024bd91  openwrt-mtall-xz_05
 
 cat small_files* > large_file
 
+In ubuntu18.04, run the following:
+
+apt install libssl1.0-dev
