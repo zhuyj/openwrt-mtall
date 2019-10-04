@@ -28,3 +28,10 @@ cat small_files* > large_file
 In ubuntu18.04, run the following:
 
 apt install libssl1.0-dev
+
+To send mail, follow these steps:
+
+1. wget http://v4.ipv6-test.com/api/myip.php
+2. IPADDR=`cat /root/myip.php`
+3. mailsend -ehlo -4 -smtp smtp.139.com -port 25 -t mobilephone@139.com -f mobilephone@139.com -sub "$IPADDR 9099(91) 9080(80) 9022(22) 9090(8090)" -starttls -pass "password" -auth -user mobilephone -msg-body /root/myip.php
+
